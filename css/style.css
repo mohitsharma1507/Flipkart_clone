@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: lightblue;
+    font-family: 'Lato', sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 158px;
+    padding: 0 25px;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: grey;
+    font-weight: bolder;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    width: 30vw;
+    height: 27px;
+    margin: 0 16px 0 56px;
+    border-radius: 6px;
+    padding:0 12px ;
+}
+.searchbar button{
+    font-family: 'Lato', sans-serif;
+    font-weight : 900px; ;
+
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    /* background-color: wheat; */
+    max-width: 91vw;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh); 
+}    
+footer{
+    background-color: blue;
+    color: white;
+    height: 12vh;
+    font-family: 'Lato', sans-serif;
+
+}
